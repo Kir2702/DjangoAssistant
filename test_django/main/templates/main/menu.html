@@ -1,0 +1,14 @@
+
+
+{% block menu %}
+<aside>
+    <img src="{% static '/main/img/logo.svg' %}" alt="Лого">
+    <span class="logo">Сat assistant</span>
+    <ul>
+        <a href="{% url 'home' %}"><li><i class="fas fa-home"></i> Главная</li></a>
+        <a href="{% url 'generator' %}"><li><i class="fas fa-pen"></i> Генератор ответа</li></a>
+        <a href="{% url 'samples' %}"><li><i class="fas fa-clipboard-list"></i> Шаблоны</li></a>
+        <a href="{% url 'about' %}"><li><i class="fas fa-paw"></i> О пректе</li></a>
+    </ul>
+</aside>
+{% endblock %}

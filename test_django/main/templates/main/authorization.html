@@ -1,0 +1,12 @@
+{% extends 'main/layout.html' %}
+
+{% block title %}
+    Авторизация
+{% endblock %}
+
+{% block content %}
+    {% if form.errors %}
+      <p>Your username and password didn't match. Please try again.</p>
+    {% endif %}
+{% endblock %}
+
