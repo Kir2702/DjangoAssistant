@@ -25,7 +25,7 @@ SECRET_KEY = 'm_6$ua=&39x(5@pooxwl0&ejthvt6-mia6=ck077bve=+=c#p('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['.localhost', '127.0.0.1', '[::1]', '217.197.116.148']
 
 
 # Application definition
